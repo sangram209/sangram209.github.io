@@ -1,0 +1,173 @@
+* {
+	margin: 0px;
+}
+
+body{
+	background-color: white;
+	font-family: DockChampa;
+}
+header{
+	background-color: #4F5D73;
+}
+
+footer{
+	background-color: #4F5D73;
+	height: 100px;
+	width: auto;
+	clear: both;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	font-size: 16pt;
+	padding-top: 25px;
+}
+
+tekstvak1{
+	color: white;
+	background-color: #4F5D73;
+	height: 50px;
+	width: 1872px;
+	font-size: 16pt;
+	margin-top: 0px;
+	padding-top: 0px;
+	float: left;
+	font-family: DockChampa;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+tekstvak1 p{
+	padding-top: 8px;
+	background-color: #4F5D73;
+	font-family: DockChampa;
+}
+
+tekstvak1 a{
+	color: white;
+	font-family: DockChampa;
+}
+
+tekstvak1 a:hover{
+	color: grey;
+}
+
+.sliderSG {
+	margin: 0;
+	width: 1887px;
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.sliderSG a {
+	position: absolute;
+	-webkit-animation: round 15s infinite;
+	opacity: 0;
+}
+
+.photo {
+	width: 1990px;
+	height: 550px;
+	padding-left: 10px;
+	padding-right: 490px;
+}
+
+@-webkit-keyframes round {
+25% {
+    opacity: 1;
+    z-index: 999;
+  }
+  40% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.sliderSG a:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-o-animation-delay: 10s;
+	animation-delay: 10s;
+}
+
+.sliderSG a:nth-child(2) {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-o-animation-delay: 5s;
+	animation-delay: 5s;
+}
+
+.sliderSG a:nth-child(1) {
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-o-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+/* Dropdown Button */
+.nav {
+    background-color: #4F5D73;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin-top: 66px;
+	margin-right: 30px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+	float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+	border-radius: 15px;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 9999;
+	margin-left: 15px;
+	transition: 0.3s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #4F5D73;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: Impact, Charcoal, sans-serif;
+	transition: 0.3s;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+	background-color: #4F5D73; 
+	display:block; 
+	color: white;
+	border-radius: 16px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #4F5D73;
+}
+

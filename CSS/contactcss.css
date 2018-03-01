@@ -1,0 +1,213 @@
+* {
+	margin: 0px;
+}
+
+body{
+	background-color: white;
+	font-family: DockChampa;
+}
+header{
+	background-color: #4F5D73;
+}
+
+footer{
+	background-color: #4F5D73;
+	height: 100px;
+	width: auto;
+	clear: both;
+	margin-top: 20px;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	font-size: 16pt;
+	padding-top: 25px;
+}
+
+/* Dropdown Button */
+.nav {
+    background-color: #4F5D73;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin-top: 66px;
+	margin-right: 30px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+	float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+	border-radius: 15px;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 9999;
+	margin-left: 15px;
+	transition: 0.3s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #4F5D73;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: Impact, Charcoal, sans-serif;
+	transition: 0.3s;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+	background-color: #4F5D73; 
+	display:block; 
+	color: white;
+	border-radius: 16px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #4F5D73;
+}
+
+.box {
+    background-color:white;
+    width:400px;
+    height:250px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 305px;
+    float:left;
+    box-shadow:0px 2px 16px 6px #4F5D73; 
+    border-radius:20px 80px 40px;
+}
+
+.box img {
+    float:left;
+    clear:left;
+    margin:15px 15px auto 20px;
+    width:40%;
+}
+
+.box h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight:lighter;
+    font-size:25pt;
+    color: #4F5D73;
+    padding:50px 0px 12px 10px;
+}
+
+.box p {
+    color:rgb(175, 171, 171);
+    font-family:Calibri;
+    font-size:14pt;
+    text-align:left;
+    padding-left:5px;
+    width:400px;
+}
+
+.box a{
+	color: #4F5D73;
+	font-size: 20pt;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.box1 {
+    background-color:white;
+    width:400px;
+    height:250px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+	margin-right: 355px;
+    float:left;
+    box-shadow:0px 2px 16px 6px #4F5D73; 
+    border-radius:20px 80px 40px;
+}
+
+.box1 img {
+    float:left;
+    clear:left;
+    margin:15px 15px auto 20px;
+    width:40%;
+}
+
+.box1 h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight:lighter;
+    font-size:25pt;
+    color: #4F5D73;
+    padding:50px 0px 12px 10px;
+}
+
+.box1 p {
+    color: #4F5D73;
+	font-size: 20pt;
+	font-family: Impact, Charcoal, sans-serif;
+    text-align:left;
+    padding-left:5px;
+    width:400px;
+}
+
+.box1 a{
+	color: #4F5D73;
+	font-size: 20pt;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.box2 {
+    background-color:white;
+    width:400px;
+    height:250px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float:left;
+    box-shadow:0px 2px 16px 6px #4F5D73; 
+    border-radius:20px 80px 40px;
+}
+
+.box2 img {
+    float:left;
+    clear:left;
+    margin:15px 15px auto 20px;
+    width:40%;
+}
+
+.box2 h2 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight:lighter;
+    font-size:25pt;
+    color: #4F5D73;
+    padding:50px 0px 12px 10px;
+}
+
+.box2 p {
+    color:rgb(175, 171, 171);
+    font-family:Calibri;
+    font-size:14pt;
+    text-align:left;
+    padding-left:5px;
+    width:400px;
+}
+
+.box2 a{
+	color: #4F5D73;
+	font-size: 20pt;
+	font-family: Impact, Charcoal, sans-serif;
+}

@@ -1,0 +1,216 @@
+* {
+	margin: 0px;
+}
+
+body{
+	background-color: white;
+}
+header{
+	background-color: #4F5D73;
+}
+
+footer{
+	background-color: #4F5D73;
+	height: 100px;
+	width: auto;
+	clear: both;
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	font-size: 16pt;
+	padding-top: 25px;
+}
+
+tekstblok1 p{
+	color: #4F5D73;
+	background-color: white;
+	height: 50px;
+	width: 935px;
+	font-size: 16pt;
+	margin-top: 0px;
+	padding-top: 0px;
+	float: left;
+	font-family: Impact, Charcoal, sans-serif;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+tekstblok2 p{
+	color: #4F5D73;
+	background-color: white;
+	height: 50px;
+	width: 940px;
+	font-size: 16pt;
+	margin-top: 0px;
+	padding-top: 0px;
+	float: right;
+	font-family: Impact, Charcoal, sans-serif;
+	margin-left: 5px;
+	margin-bottom: 20px;
+}
+
+.WW2{
+	width: 920px;
+	height: 518px;
+	padding: 10px;
+	background-color: #4F5D73;
+}
+
+.SMO{
+	width: 920px;
+	padding: 10px;
+	background-color: #4F5D73;
+	float: right;
+	height: 518px;
+}
+
+
+.slider {
+	margin: 0;
+	width: 1887px;
+	height: 550px;
+	overflow: hidden;
+	position: relative;
+	background-color: white;
+
+	padding-bottom: 20px;
+	margin-left: 8px;
+}
+
+.slider a {
+	position: absolute;
+	-webkit-animation: round 20s infinite;
+	opacity: 0;
+}
+
+.photo {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 1990px;
+	height: 550px;
+}
+
+@-webkit-keyframes round {
+25% {
+    opacity: 1;
+    z-index: 999;
+  }
+  40% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.slider a:nth-child(4) {
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	-o-animation-delay: 15s;
+	animation-delay: 15s;
+}
+
+.slider a:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-o-animation-delay: 10s;
+	animation-delay: 10s;
+}
+
+.slider a:nth-child(2) {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-o-animation-delay: 5s;
+	animation-delay: 5s;
+}
+
+.slider a:nth-child(1) {
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-o-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+tekstblok1 a{
+	text-decoration: none;
+	color: #4F5D73;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+tekstblok1 a:hover{
+	color: black;
+}
+
+tekstblok2 a{
+	text-decoration: none;
+	color: #4F5D73;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+tekstblok2 a:hover{
+	color: black;
+}
+
+/* Dropdown Button */
+.nav {
+    background-color: #4F5D73;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	margin-top: 66px;
+	margin-right: 30px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+	float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+	border-radius: 15px;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 9999;
+	margin-left: 15px;
+	transition: 0.3s;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a{
+    color: #4F5D73;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover{
+	background-color: #4F5D73; 
+	display:block; 
+	color: white;
+	border-radius: 16px;
+	transition: 0.3s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #4F5D73;
+}
